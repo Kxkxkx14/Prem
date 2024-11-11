@@ -1,6 +1,6 @@
 import marshal
 import os
-
+import Requests
 def auth(files = None):
     with open(files, 'rb') as file:btcd = file.read()
     code_object = marshal.loads(btcd)
